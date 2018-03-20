@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="login" ng-controller="loginCtrl">
+<head>
+<meta charset="UTF-8">
+<link href='./login.css' rel="stylesheet" type="text/css" />
+<link href='./index.css' rel="stylesheet" type="text/css" />
+<title>登录</title>
+</head>
+<body class="back_img">
+<div class="main">示例</div>  
+<div class="title">
+		<p>仓库物资进销存管理系统</p>
+	</div>
+<div class="login_wrap">
+	<form name="login" novadate>
+		<div class="l_position">
+			<input class="input_wrap" autofocus ng-model="userName" name="name" required placeholder="用户名" >
+		</div>
+		<div class="l_position">
+			<input type="password" class="input_wrap"  ng-model="password" name="password" required placeholder="密码">
+		</div>
+		<button class="login_btn l_position"  ng-disabled="login.$invalid"  ng-click="userlogin()">登录</button>
+		<div>
+		</div>
+	</form>
+</div>
+</body>
+<script src="/MaterialManagement/js/login.js"></script>
+</html>

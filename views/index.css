@@ -1,0 +1,341 @@
+@CHARSET "UTF-8";
+.fl{
+	float:left;
+}
+/* 主页  start */
+.back_img{
+	 background:url(/MaterialManagement/img/index.png) no-repeat;
+}
+.title_box{
+	width: 16%;
+    text-align: center;
+    margin-right: 0.6%;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    line-height: 34px;
+    color: white;
+    cursor: pointer;
+    margin-top: 17px;
+}
+.title_box:hover{
+	 transform: scale(1.03); 
+	 opacity:0.5;
+}
+.bigtitle_box{
+	text-align: center;
+	color: white;
+	font-family: "@华文行楷" !important;
+	font-size: xx-large;
+	position: relative;
+    top: 20px;
+}
+.basic_color{
+	background: #09a1e487;
+}
+.storage{
+	background: #ea854da6;
+}
+.outStorage{
+    background: #e375748a;
+}
+.inventoryManage{
+    background: #00aba5b3;
+}
+.otherSettings{
+	background: #09e5b97a;
+}
+.statistics{
+	background: #6fd08378;
+}
+.menu_content{
+	width: 82%;
+    height: fit-content;
+    margin: auto;
+}
+/* 主页   end */
+
+/* 基础信息 start */
+.productInfor{
+    cursor: pointer;
+}
+.personnelInfor{
+    height: 22%;
+    cursor: pointer;
+}
+
+.storageInfor{
+    cursor: pointer;
+}
+
+.content_box{
+	background-color: white;
+    height: 480px;
+    position: relative;
+    top: 59px;
+    border-radius: 7px;
+    opacity: 0.8;
+    width: 82%;
+    margin: auto;
+}
+.infor_top{
+	position: relative;
+    top: 30%;
+}
+.message_top{
+	top: 47%;
+}
+.goodMessage{
+	position: relative;
+    cursor: pointer;
+    top: 30px;
+    right: 50%;
+}
+.personMessage{
+	position: relative;
+    cursor: pointer;
+    right: 51%;
+    top: 45px;
+}
+.storageMessage{
+	position: relative;
+    cursor: pointer;
+    right: 50%;
+    top: 24px;
+}
+.basicTable{
+	margin:auto;
+	padding-top: 50px;
+}
+.addPerson{
+	width: 6%;
+    position: relative;
+    left: 8%;
+    cursor:pointer;
+}
+.selectButton{
+	background-color: #22d8d8 !important;
+	color:white !important;
+}
+/* 基础信息 end */
+
+/* 入库管理  start */
+.inregister{
+  	height: 36%;
+    cursor: pointer;
+}
+.ingoodMessage{
+	position: relative;
+    right: 56%;
+    cursor: pointer;
+    top: 18px;
+}
+.inmingxi{
+	height: 25%;
+    cursor: pointer;
+}
+.mingxiMessage{
+	position: relative;
+    right: 40%;
+    cursor: pointer;
+    top: 28px;
+}
+.intotalInfor{
+	width: 88%;
+    cursor: pointer;
+}
+.intotalMessage{
+	position: relative;
+    left: 13%;
+    cursor: pointer;
+}
+.tuihuoregister{
+    height: 22%;
+    cursor: pointer;
+}
+.tuihuoregisterMessage{
+	position: relative;
+    right: 38%;
+    top: 34px;
+}
+.inTable{
+	margin:auto;
+	padding-top:20px;
+}
+.tui{
+    height: 44%;
+    cursor: pointer;
+}
+.tuiMessage{
+	position: relative;
+    right: 56%;
+    cursor: pointer;
+    top: 22px;
+}
+.outtotalInfor{
+  	 width: 88%;
+    cursor: pointer;
+}
+.outtotalMessage{
+	position: relative;
+    left: 17%;
+    cursor: pointer;
+    top: 41%;
+}
+/* 入库管理  end */
+
+
+.materialForm{
+	width: 300px;
+    height: 300px;
+    margin: auto;
+	padding-top: 100px;
+}
+.distance{
+	margin-bottom: 18px;
+}
+.spanright{
+	padding-right: 20px;
+}
+.selectW{
+	width: 174px;
+    height: 27px;
+}
+.instorge{
+	width: 84%;
+    border: navajowhite;
+    color: #fff;
+    background-color: #f1825ffc;
+    height: 31px;
+    border-radius: 5px;
+}
+.mingxiTable{
+	border: 1px solid #ccc;
+    width: 90%;
+    margin: auto;
+}
+.tablehead{
+	border: 1px solid #ccc;
+    text-align: center;
+    height: 40px;
+    background-color: #ddd;
+}
+.tablebody{
+	border: 1px solid #ccc;
+	text-align: center;
+    height: 30px;
+}
+.mingxiTitle{
+	text-align: center;
+    font-size: x-large;
+}
+.tablebody:hover{
+	transform: scale(1.02); 
+	opacity:0.8;
+}
+/* 基本信息 */
+.leftButtn{
+	width: 200px;
+    background-color: #ddd;
+    height: 80px;
+    text-align: center;
+    display: grid;
+    border-bottom: 1px solid #ccc;
+    color: #545252;
+    cursor: pointer;
+}
+
+.leftButtn :hover{
+	transform: scale(1.02); 
+	opacity:0.8;
+}
+
+.leftButtn :active{
+	transform: scale(1.02); 
+	opacity:0.8;
+}
+
+.leftButtn .msg{
+	position: relative;
+    top: 29px;
+}
+.chanpTable{
+	position: relative;
+    left: 24%;
+	bottom: 74%;
+    width: 70%;
+    text-align: center;
+}
+.chanpTable .title{
+	height: 61px;
+    background-color: #22d8d8;
+    color: #fff;
+}
+.chanpbody{
+	height: 40px;
+}
+.leftTitle{
+	width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 2%;
+}
+.persontable{
+	width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.personTitle{
+	background-color: #ccc;
+}
+
+/* 统计查询 */
+.searchBox{
+	width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.searchInput{
+	width: 42%;
+    height: 33px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 6px;
+    box-shadow: 10px 10px 10px #888888;
+    outline: none;
+    font-size: 15px;
+    color: #444;
+}
+.searchButton{
+	width: 9%;
+    height: 33px;
+    border: navajowhite;
+    color: white;
+    background-color: #3ebfbc;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+    outline: none;
+    cursor:pointer;
+}
+.searchselect{
+	width: 6%;
+    height: 37px;
+    border: none;
+    border-radius: 9px;
+    background-color: #46cac7;
+    color: white;
+    outline: none;
+    cursor:pointer;
+}
+.searchTable{
+	width: 80%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.searchTableTitle{
+	background-color: #48d5d8;
+    color: white;
+    height: 31px;
+}
